@@ -5,6 +5,8 @@
     font-family: "Inter", sans-serif;
 }
 
+
+
 button {
     cursor: pointer;
 }
@@ -17,6 +19,9 @@ button {
 
 header {
     background-color: #2d2d2d;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header > .container {
@@ -56,6 +61,13 @@ header button {
 .line-blue {
     background-color: #2aaae7;
     padding: 6px;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+}
+
+#socio {
+    padding-top: 112px;
 }
 
 .seja-socio {
